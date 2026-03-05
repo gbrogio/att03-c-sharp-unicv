@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 public class  Ex71_Gerente : Ex69_SalarioAbstrato
 {
     public double SalarioBase { get; set; }
 
-    public Ex71_Geremte(double SalarioBase)
+    public Ex71_Gerente(double salarioBase)
     {
         SalarioBase = salarioBase;
     }
