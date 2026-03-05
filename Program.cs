@@ -174,3 +174,52 @@ Console.WriteLine();
 Console.WriteLine("========== Atividade 63 ==========");
 Ex63_ClasseQuadrado.Executar();
 Console.WriteLine();
+
+Console.WriteLine("========== Atividade 64 ==========");
+Console.WriteLine(new Ex64_Circulo(5).CalcularArea());
+
+Console.WriteLine("========== Atividade 65 ==========");
+Console.WriteLine(new Ex65_Circulo(5).CalcularArea());
+
+Console.WriteLine("========== Atividade 66 ==========");
+Console.WriteLine("Declarar Classe Abstrata Area");
+
+Console.WriteLine("========== Atividade 67 ==========");
+Console.WriteLine(new Ex67_ClasseConcreta(2).Area);
+
+Console.WriteLine("========== Atividade 68 ==========");
+Console.WriteLine("Declarar Classe Abstrata Funcionario");
+
+Console.WriteLine("========== Atividade 69 ==========");
+Console.WriteLine("Declarar Classe Abstrata Salario");
+
+Console.WriteLine("========== Atividade 70 ==========");
+Console.WriteLine(new Ex70_Desenvolvedor(2000).CalcularSalario());
+
+Console.WriteLine("========== Atividade 71 ==========");
+Console.WriteLine(new Ex71_Gerente(5000).CalcularSalario());
+
+Console.WriteLine("========== Atividade 72 ==========");
+Console.WriteLine("Declarar Classe Construtor Abstrato");
+
+Console.WriteLine("========== Atividade 73 ==========");
+Console.WriteLine("Declarar Classe Construtor Protected");
+
+Console.WriteLine("========== Atividade 74 ==========");
+Console.WriteLine(new Ex74_AbstratocomVirtual_Gerente().CalcularSalario());
+Console.WriteLine(new Ex74_AbstratocomVirtual_Gerente().Cargo());
+
+Console.WriteLine("========== Atividade 75 ==========");
+new Ex75_InterfaceAbstrataGerarRelatorio().Gerar();
+
+Console.WriteLine("========== Atividade 76 ==========");
+Console.WriteLine("Declarar Classe Interface Imprimir");
+
+Console.WriteLine("========== Atividade 77 ==========");
+new Ex77_Documento("Simba").Imprimir();
+
+Console.WriteLine("========== Atividade 78 ==========");
+Console.WriteLine("Declarar Classe Interface Autenticavel");
+
+Console.WriteLine("========== Atividade 79 ==========");
+Console.WriteLine(new Ex79_Administrator("1234").Autenticar("1234"));
