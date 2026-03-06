@@ -60,10 +60,12 @@ Console.WriteLine();
 Console.WriteLine("========== Atividade 20 ==========");
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 31 ==========");
+Console.WriteLine("========== Atividade 31 - Crie classe Animal ==========");
+Ex31_ClasseAnimal.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 32 ==========");
+Ex32_Cachorro.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 33 ==========");

@@ -1,10 +1,11 @@
-namespace Exercicios
+namespace Exercicios;
+
+public partial class Animal
 {
-    public partial class Animal
-    {
-        public virtual void EmitirSom()
-        {
-            System.Console.WriteLine("O animal emite um som.");
-        }
-    }
+    public virtual void EmitirSom() => Console.WriteLine("Animal emitindo som genérico...");
+}
+
+public class Ex33_AdicioneMetodoEmitirSom
+{
+    public static void Executar() => Console.WriteLine("Método virtual EmitirSom adicionado à base.");
 }
