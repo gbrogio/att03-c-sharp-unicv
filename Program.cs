@@ -79,53 +79,68 @@ Console.WriteLine("========== Atividade 31 - Crie classe Animal ==========");
 Ex31_ClasseAnimal.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 32 ==========");
+Console.WriteLine("========== Atividade 32 - Crie classe Cachorro herdando Animal.\r\n ==========");
 Ex32_Cachorro.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 33 ==========");
+Console.WriteLine("========== Atividade 33 - Adicione método EmitirSom() virtual. ==========");
+Ex33_EmitirSom.Executar(); 
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 34 ==========");
+Console.WriteLine("========== Atividade 34 - Sobrescreva em Cachorro. ==========");
+Ex34_SobrescrevaEmCachorro.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 35 ==========");
+Console.WriteLine("========== Atividade 35 - Crie classe Gato. ==========");
+Ex35_ClasseGato.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 36 ==========");
+Console.WriteLine("========== Atividade 36 -  Use polimorfismo com lista de Animal. ==========");
+Ex36_PolimorfismoListaç.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 37 ==========");
+Console.WriteLine("========== Atividade 37 - Crie classe Veiculo ==========");
+Ex37_ClasseVeiculo.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 38 ==========");
+Console.WriteLine("========== Atividade 38 - Crie classe Carro herdando Veiculo. ==========");
+Ex38_ClasseCarro.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 39 ==========");
+Console.WriteLine("========== Atividade 39 - Crie classe Moto. ==========");
+Ex39_ClasseMoto.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 40 ==========");
+Console.WriteLine("========== Atividade 40 -  Use base() no construtor. ==========");
+Ex40_UsoBaseConstrutor.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 41 ==========");
+Console.WriteLine("========== Atividade 41 - Crie método virtual CalcularConsumo. ==========");
+Ex41_MetodoVirtualConsumo.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 42 ==========");
+Console.WriteLine("========== Atividade 42 - Sobrescreva em classes filhas.==========");
+Ex42_SobrescrevaNasFilhas.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 43 ==========");
+Console.WriteLine("========== Atividade 43 - Use sealed em uma classe. ==========");
+Ex43_UseSealedEmUmaClasse.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 44 ==========");
+Console.WriteLine("========== Atividade 44 -  Use sealed override. ==========");
+Ex44_UseSealedOverride.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 45 ==========");
+Console.WriteLine("========== Atividade 45 - Crie classe Pessoa. ==========");
+Ex45_CrieClassePessoa.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 46 ==========");
+Console.WriteLine("========== Atividade 46 - Crie classe Funcionario herdando Pessoa. ==========");
+Ex46_FuncionarioHerdandoPessoa.Executar();
 Console.WriteLine();
 
-Console.WriteLine("========== Atividade 47 ==========");
+Console.WriteLine("========== Atividade 47 - Crie classe Gerente herdando Funcionario. ==========");
+Ex47_GerenteHerdandoFuncionario.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 48 - Teste Herança Multiplos Níveis ==========");
