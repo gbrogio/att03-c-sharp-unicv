@@ -1,48 +1,63 @@
 using Exercicios;
 
-Console.WriteLine("========== Atividade 01 ==========");
+Console.WriteLine("========== Exercício 1 - Classe Pessoa ==========");
+Ex01_ClassePessoa.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 02 ==========");
+Ex02_PessoaApresentar.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 03 ==========");
+Ex03_Pessoa.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 04 ==========");
+Ex04_Pessoa.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 05 ==========");
+Ex05_Pessoa.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 06 ==========");
+Ex06_Produto.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 07 ==========");
+Ex07_Produto.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 08 ==========");
+Ex08_Produto.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 09 ==========");
+Ex09_10_11_Conta.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 10 ==========");
+Ex10_Conta.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 11 ==========");
+Ex11_Conta.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 12 ==========");
+Ex12_13_14_15_Aluno.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 13 ==========");
+Ex13_Aluno.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 14 ==========");
+Ex14_Aluno.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 15 ==========");
+Ex15_Aluno.Executar();
 Console.WriteLine();
 
 Console.WriteLine("========== Atividade 16 ==========");
