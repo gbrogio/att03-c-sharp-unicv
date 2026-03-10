@@ -255,3 +255,6 @@ Console.WriteLine("Declarar Classe Interface Autenticavel");
 
 Console.WriteLine("========== Atividade 79 ==========");
 Console.WriteLine(new Ex79_Administrator("1234").Autenticar("1234"));
+
+Console.WriteLine("========== Atividade 80 ==========");
+new Ex80_Cliente.Executar();
