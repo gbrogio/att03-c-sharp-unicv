@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex82
+namespace Exercicios
 {
     public interface IPessoa
     {

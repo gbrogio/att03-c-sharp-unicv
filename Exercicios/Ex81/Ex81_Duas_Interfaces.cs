@@ -2,7 +2,7 @@ using System;
 namespace Exercicios;
 
 
-class Usuario : IAutenticavel, IImprimivel
+class Ex81_Duas_Interfaces : IAutenticavel, IImprimivel
 {
     public string Nome { get; set; }
     public double Salario { get; set; }
@@ -29,7 +29,7 @@ class Usuario : IAutenticavel, IImprimivel
 
     public static void Executar()
     {
-        Usuario user = new Usuario
+        Ex81_Duas_Interfaces user = new Ex81_Duas_Interfaces
         {
             Nome = "lucas",
             Idade = 23,
