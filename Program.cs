@@ -257,4 +257,10 @@ Console.WriteLine("========== Atividade 79 ==========");
 Console.WriteLine(new Ex79_Administrator("1234").Autenticar("1234"));
 
 Console.WriteLine("========== Atividade 80 ==========");
-new Ex80_Cliente.Executar();
+Ex80_Cliente.Executar();
+
+Console.WriteLine("========== Atividade 81 ==========");
+Ex80_Cliente.Executar();
+
+Console.WriteLine("========== Atividade 82 ==========");
+Ex80_Cliente.Executar();
