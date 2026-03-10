@@ -1,31 +1,98 @@
 using Exercicios;
 
-Console.WriteLine("========== Atividade 81 ==========");
-Ex81_Duas_Interfaces.Executar();
+void ExecutarExercicio(int numero, Action acao)
+{
+    Console.WriteLine($"========== Atividade {numero} ==========");
+    acao();
+}
 
-Console.WriteLine("========== Atividade 82 ==========");
-Ex82_Usuario.Executar();
-
-Console.WriteLine("========== Atividade 83 ==========");
-EX83_Usuario.Executar();
-
-Console.WriteLine("========== Atividade 84 ==========");
-Ex84_Sistema.Executar();
-
-Console.WriteLine("========== Atividade 85 ==========");
-Ex85_Sistema.Executar();
-
-Console.WriteLine("========== Atividade 86 ==========");
-Ex86_Programa.Executar();
-
-Console.WriteLine("========== Atividade 87 ==========");
-Ex87_Pagamento.Executar();
-
-Console.WriteLine("========== Atividade 88 ==========");
-Ex88_Pagamento.Executar();
-
-Console.WriteLine("========== Atividade 89 ==========");
-Ex88_Pagamento.Executar();
-
-Console.WriteLine("========== Atividade 90 ==========");
-Ex90_Pagamento.Executar();
+ExecutarExercicio(1, Ex01_ClassePessoa.Executar);
+ExecutarExercicio(2, Ex02_MetodoApresentar.Executar);
+ExecutarExercicio(3, Ex03_ConstrutorNome.Executar);
+ExecutarExercicio(4, Ex04_ConstrutorNomeIdade.Executar);
+ExecutarExercicio(5, Ex05_ValidacaoIdade.Executar);
+ExecutarExercicio(6, Ex06_ClasseProduto.Executar);
+ExecutarExercicio(7, Ex07_ValidacaoPreco.Executar);
+ExecutarExercicio(8, Ex08_AplicarDesconto.Executar);
+ExecutarExercicio(9, Ex09_ContaBancariaSaldoPrivado.Executar);
+ExecutarExercicio(10, Ex10_DepositarSacar.Executar);
+ExecutarExercicio(11, Ex11_ValidarSaque.Executar);
+ExecutarExercicio(12, Ex12_ClasseAlunoNota.Executar);
+ExecutarExercicio(13, Ex13_MetodoAprovado.Executar);
+ExecutarExercicio(14, Ex14_PropriedadeSomenteLeitura.Executar);
+ExecutarExercicio(15, Ex15_PrivateSet.Executar);
+ExecutarExercicio(16, Ex16_CampoReadonly.Executar);
+ExecutarExercicio(17, Ex17_ConstantePI.Executar);
+ExecutarExercicio(18, Ex18_MetodoEstaticoSomar.Executar);
+ExecutarExercicio(19, Ex19_ContadorInstancias.Executar);
+ExecutarExercicio(20, Ex20_SobrescreverToString.Executar);
+ExecutarExercicio(21, Ex21_ClasseCarroAcelerar.Executar);
+ExecutarExercicio(22, Ex22_UsoThisConstrutor.Executar);
+ExecutarExercicio(23, Ex23_PropriedadeCalculada.Executar);
+ExecutarExercicio(24, Ex24_PedidoIdAutomatico.Executar);
+ExecutarExercicio(25, Ex25_MetodoLambda.Executar);
+ExecutarExercicio(26, Ex26_MetodoParametroOpcional.Executar);
+ExecutarExercicio(27, Ex27_InitOnlyProperty.Executar);
+ExecutarExercicio(28, Ex28_RecordCliente.Executar);
+ExecutarExercicio(29, Ex29_StringFormatada.Executar);
+ExecutarExercicio(30, Ex30_EncapsulamentoFuncionario.Executar);
+ExecutarExercicio(31, Ex31_ClasseAnimal.Executar);
+ExecutarExercicio(32, Ex32_ClasseCachorro.Executar);
+ExecutarExercicio(33, Ex33_MetodoVirtualEmitirSom.Executar);
+ExecutarExercicio(34, Ex34_SobrescritaCachorro.Executar);
+ExecutarExercicio(35, Ex35_ClasseGato.Executar);
+ExecutarExercicio(36, Ex36_PolimorfismoListaAnimal.Executar);
+ExecutarExercicio(37, Ex37_ClasseVeiculo.Executar);
+ExecutarExercicio(38, Ex38_ClasseCarroHerdaVeiculo.Executar);
+ExecutarExercicio(39, Ex39_ClasseMoto.Executar);
+ExecutarExercicio(40, Ex40_UsoBaseConstrutor.Executar);
+ExecutarExercicio(41, Ex41_MetodoVirtualCalcularConsumo.Executar);
+ExecutarExercicio(42, Ex42_SobrescritaFilhas.Executar);
+ExecutarExercicio(43, Ex43_ClasseSealed.Executar);
+ExecutarExercicio(44, Ex44_SealedOverride.Executar);
+ExecutarExercicio(45, Ex45_ClassePessoaHeranca.Executar);
+ExecutarExercicio(46, Ex46_FuncionarioHerdandoPessoa.Executar);
+ExecutarExercicio(47, Ex47_GerenteHerdandoFuncionario.Executar);
+ExecutarExercicio(48, Ex48_HerancaMultiplosNiveis.Executar);
+ExecutarExercicio(49, Ex49_ProtectedAtributo.Executar);
+ExecutarExercicio(50, Ex50_AcessoProtectedFilha.Executar);
+ExecutarExercicio(51, Ex51_MetodoVirtualBase.Executar);
+ExecutarExercicio(52, Ex52_SobrescritaParcialBase.Executar);
+ExecutarExercicio(53, Ex53_ClasseConta.Executar);
+ExecutarExercicio(54, Ex54_ContaCorrenteContaPoupanca.Executar);
+ExecutarExercicio(55, Ex55_SobrescreverSacar.Executar);
+ExecutarExercicio(56, Ex56_Hierarquia4Niveis.Executar);
+ExecutarExercicio(57, Ex57_CastingEntreTipos.Executar);
+ExecutarExercicio(58, Ex58_IsEAs.Executar);
+ExecutarExercicio(59, Ex59_MetodoRecebeClasseBase.Executar);
+ExecutarExercicio(60, Ex60_PolimorfismoReferenciaBase.Executar);
+ExecutarExercicio(61, Ex61_ClasseAbstrataForma.Executar);
+ExecutarExercicio(62, Ex62_MetodoAbstratoCalcularArea.Executar);
+ExecutarExercicio(63, Ex63_ClasseQuadrado.Executar);
+ExecutarExercicio(64, Ex64_ClasseCirculo.Executar);
+ExecutarExercicio(65, Ex65_PolimorfismoListaForma.Executar);
+ExecutarExercicio(66, Ex66_PropriedadeAbstrata.Executar);
+ExecutarExercicio(67, Ex67_ClasseConcretaImplementaAbstrata.Executar);
+ExecutarExercicio(68, Ex68_ClasseAbstrataFuncionario.Executar);
+ExecutarExercicio(69, Ex69_MetodoAbstratoCalcularSalario.Executar);
+ExecutarExercicio(70, Ex70_ClasseDesenvolvedor.Executar);
+ExecutarExercicio(71, Ex71_ClasseGerente.Executar);
+ExecutarExercicio(72, Ex72_ConstrutorClasseAbstrata.Executar);
+ExecutarExercicio(73, Ex73_ConstrutorProtected.Executar);
+ExecutarExercicio(74, Ex74_AbstratoComVirtual.Executar);
+ExecutarExercicio(75, Ex75_AbstrataImplementaInterface.Executar);
+ExecutarExercicio(76, Ex76_InterfaceIImprimivel.Executar);
+ExecutarExercicio(77, Ex77_ClasseDocumento.Executar);
+ExecutarExercicio(78, Ex78_InterfaceIAutenticavel.Executar);
+ExecutarExercicio(79, Ex79_AdministradorAutenticavel.Executar);
+ExecutarExercicio(80, Ex80_ClienteAutenticavel.Executar);
+ExecutarExercicio(81, Ex81_ClasseDuasInterfaces.Executar);
+ExecutarExercicio(82, Ex82_InterfaceComPropriedade.Executar);
+ExecutarExercicio(83, Ex83_InterfaceMetodoBool.Executar);
+ExecutarExercicio(84, Ex84_InterfaceComoParametro.Executar);
+ExecutarExercicio(85, Ex85_ClassePagamento.Executar);
+ExecutarExercicio(86, Ex86_PagamentoPix.Executar);
+ExecutarExercicio(87, Ex87_PagamentoCartao.Executar);
+ExecutarExercicio(88, Ex88_ListaIPagamento.Executar);
+ExecutarExercicio(89, Ex89_MetodoRecebeIPagamento.Executar);
+ExecutarExercicio(90, Ex90_PolimorfismoInterfaceHeranca.Executar);
