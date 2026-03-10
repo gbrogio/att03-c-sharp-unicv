@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Exercicios;
-
-class Pagamento : IPagamento
+public class Pagamento2 : IPagamento
 {
     public string Tipo { get; set; }
     public double Valor { get; set; }
 
-    public Pagamento(string tipo, double valor)
+    public Pagamento2(string tipo, double valor)
     {
         Tipo = tipo;
         Valor = valor;
     }
+
     public void Exibir()
     {
-        Console.WriteLine($"Pagamento realizado! \nTipo: {Tipo} \nValor: {Valor}");
+        Console.WriteLine($"Pagamento Realizado!\nTipo: {Tipo}\nValor: {Valor}");
     }
 }
 

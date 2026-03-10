@@ -9,7 +9,7 @@ class Ex81_Duas_Interfaces : IAutenticavel, IImprimivel
     public int Idade { get; set; }
     public string Senha { get; set; }
 
-    public bool validar(string senha)
+    public bool Autenticar(string senha)
     {
         if (Senha == senha)
         {
@@ -38,6 +38,6 @@ class Ex81_Duas_Interfaces : IAutenticavel, IImprimivel
         };
     
         user.imprimir();
-        user.validar("PetrusApostolus");
+        user.Autenticar("PetrusApostolus");
     }
 }

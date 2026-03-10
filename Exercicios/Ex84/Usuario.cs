@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex84
+namespace Exercicios;
+class Usuario : IAutenticavel
 {
-    class Usuario : IAutenticavel
-    {
-        private string senha = "JesusIsTheWay";
+    private string Senha = "JesusIsTheWay";
 
-        public bool Autenticar(string senha)
-        {
-            return this.senha == senha;
-        }
+    public bool Autenticar(string senha)
+    {
+        return this.Senha == senha;
     }
 }

@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex86
-{
-    class Programa
+namespace Exercicios;
+
+    class Ex86_Programa
     {
-        static void Main(string[] args)
+        public static void Executar()
         {
             PagamentoPix pinkeys = new PagamentoPix("PIX", 3000);
 
             pinkeys.Exibir();
         }
     }
-}
+

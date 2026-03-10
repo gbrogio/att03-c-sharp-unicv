@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex89
+namespace Exercicios;
+
+public interface IPagamento
 {
-    public interface IPagamento
-    {
-        void Exibir();
-    }
+    void Exibir();
 }
+

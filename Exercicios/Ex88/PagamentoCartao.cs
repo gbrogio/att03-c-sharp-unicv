@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex88
+namespace Exercicios;
+
+class PagamentoCartao : Pagamento
 {
-    class PagamentoCartao : Pagamento
-    {
-        public PagamentoCartao(string tipo, double valor) : base(tipo, valor) { }
-    }
+    public PagamentoCartao(string tipo, double valor) : base (tipo, valor) { }
 }
+

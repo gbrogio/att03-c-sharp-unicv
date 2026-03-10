@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Ex89
+
+namespace Exercicios;
+public class PagamentoPix : Pagamento
 {
-    public class PagamentoPix : Pagamento
-    {
-        public PagamentoPix(string tipo, double valor) : base(tipo, valor) { }
-    }
+    public PagamentoPix(string tipo, double valor) : base (tipo, valor) { }
 }
+

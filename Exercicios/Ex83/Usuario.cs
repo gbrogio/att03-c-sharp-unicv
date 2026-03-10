@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex83
+namespace Exercicios;
+
+class Usuario : IAutenticavel
 {
-    class Usuario : IAutenticavel
+    private string senha = "1234";
+    public bool validar(string senha)
     {
-        private string senha = "1234";
-        public bool Autenticar(string senha)
-        {
-            return this.senha == senha;
-        }
+        return this.senha == senha;
     }
+
+
 }
+

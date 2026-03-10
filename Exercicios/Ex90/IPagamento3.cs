@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Exercicios;
 
-public interface IPagamento
+public interface IPagamento3
 {
-    void Exibir();
+    void Processar();
 }
-

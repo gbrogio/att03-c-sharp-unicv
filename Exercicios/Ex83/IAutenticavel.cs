@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex83
+namespace Exercicios;
+public interface IAutenticavel
 {
-    public interface IAutenticavel
-    {
-        bool Autenticar(string senha);
-    }
+    bool validar(string senha);
 }
+
