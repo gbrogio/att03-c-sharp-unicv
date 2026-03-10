@@ -1,4 +1,5 @@
-namespace Exericios{
+namespace Exericios;
+
   public interface IAutenticavel
   {
       bool validar(string senha);
@@ -15,7 +16,7 @@ namespace Exericios{
       }
   }
 
-  public void Executar()
+  public static void Executar()
   {
       Cliente cli = new Cliente
       {
@@ -28,4 +29,3 @@ namespace Exericios{
       else
           Console.WriteLine("Senha digitada: Misael123# \nAcesso negado!");
   }
-}
