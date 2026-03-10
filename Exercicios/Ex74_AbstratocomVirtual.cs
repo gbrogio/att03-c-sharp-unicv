@@ -2,11 +2,11 @@
 
 public abstract class Ex74_AbstratocomVirtual
 {
-    public abstract double CalcularSalario()
+    public abstract double CalcularSalario();
 
     public virtual string Cargo()
     {
-        return "Funcionario"
+        return "Funcionario";
     }
 }
 

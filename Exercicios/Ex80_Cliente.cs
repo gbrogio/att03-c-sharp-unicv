@@ -6,27 +6,29 @@ namespace Exericios;
       bool validar(string senha);
   }
 
-  class Cliente : IAutenticavel
-  {
-      public string Nome { get; set; }
-      public string Senha { get; set; }
-  
-      public bool validar(string senha)
-      {
-          return Senha == senha;
-      }
-  }
+class Cliente : IAutenticavel
+{
+    public string Nome { get; set; }
+    public string Senha { get; set; }
 
-  public static void Executar()
-  {
-      Cliente cli = new Cliente
-      {
-          Nome = "Lucas",
-          Senha = "Holy3"
-      };
+    public bool validar(string senha)
+    {
+        return Senha == senha;
+    }
+
+    public static void Executar()
+    {
+        Cliente cli = new Cliente
+        {
+            Nome = "Lucas",
+            Senha = "Holy3"
+        };
+
+        if (cli.validar("Misael123#"))
+            Console.WriteLine("Acesso liberado!");
+        else
+            Console.WriteLine("Senha digitada: Misael123# \nAcesso negado!");
+    }
+};
+
   
-      if (cli.validar("Misael123#"))
-          Console.WriteLine("Acesso liberado!");
-      else
-          Console.WriteLine("Senha digitada: Misael123# \nAcesso negado!");
-  }

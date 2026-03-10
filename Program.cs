@@ -260,7 +260,7 @@ Console.WriteLine("========== Atividade 80 ==========");
 Ex80_Cliente.Executar();
 
 Console.WriteLine("========== Atividade 81 ==========");
-Ex80_Cliente.Executar();
+Ex81_Duas_Interfaces.Executar();
 
 Console.WriteLine("========== Atividade 82 ==========");
-Ex80_Cliente.Executar();
+Ex82_Usuario.Executar();

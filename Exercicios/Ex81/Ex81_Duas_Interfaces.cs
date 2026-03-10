@@ -1,15 +1,6 @@
 using System;
 namespace Exercicios;
 
-public interface IAutenticavel
-{
-    bool validar(string senha);
-}
-
-public interface IImprimivel
-{
-    void imprimir();
-}
 
 class Usuario : IAutenticavel, IImprimivel
 {
